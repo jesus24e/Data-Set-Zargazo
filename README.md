@@ -8,9 +8,10 @@ Este proyecto permite descargar y analizar un dataset público relacionado con e
 
 ## 📁 Estructura del Proyecto
 
-- **descarga_DS.ipynb** — Notebook principal donde se ejecuta la descarga y análisis del dataset.  
+- **clasificador_sargazo.ipynb** — Notebook principal donde se ejecuta la descarga y análisis del dataset.  
 - **zargazo_dataset/** — Carpeta que se crea automáticamente al ejecutar el notebook y donde se almacenará el dataset descargado.  
 - **kaggle.json** — Archivo con las credenciales de Kaggle que debe colocarse en la misma carpeta donde está el notebook antes de ejecutar el proyecto.
+- **outputs.csv** — archivo con las predicciones de las etiquetas con el nivel de zargazo para las fotos de playas
 
 ---
 
@@ -31,6 +32,6 @@ Este proyecto permite descargar y analizar un dataset público relacionado con e
 - abra la terminal en el escritorio o donde quiera que se descargue el proyecto y use el siguiente comando
 
 ```
-git clone https://github.com/jesus24e/Data-Set-Zargazo.git proyecto_A_DT_zargazo
+git clone https://github.com/jesus24e/Data-Set-Zargazo.git Clasificador_zargazo
 ```
-- este comando creara una carpeta llamada **proyecto_A_DT_zargazo** con el archivo ipynb dentro, despues solo tiene que abrir ese proyecto en el entorno que prefierea (Google colaboratory o Visual Studio Code por ejemplo)
+- este comando creara una carpeta llamada **Clasificador_zargazo** con el archivo ipynb dentro, despues solo tiene que abrir ese proyecto en el entorno que prefierea (Google colaboratory o Visual Studio Code por ejemplo)
