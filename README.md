@@ -1,9 +1,16 @@
-# Proyecto de Análisis del Dataset de Zargazo
+# 🌊 Clasificación de Sargazo con Red Neuronal (Kaggle MEIA 2025)
 
 ## 📄 Descripción
 
-Este proyecto permite descargar y analizar un dataset público relacionado con el fenómeno del zargazo. Utiliza la API de Kaggle para obtener los datos y diversas librerías para su procesamiento y visualización.
+Este proyecto permite descargar y analizar un dataset público relacionado con el fenómeno del sargazo. Utiliza la API de Kaggle para obtener los datos y diversas librerías para su procesamiento y visualización. Además, el dataset se utiliza como entrada para entrenar una red neuronal simple con PyTorch, con el objetivo de clasificar el nivel de sargazo en imágenes de playas.
 
+---
+
+## 🔔 Importante
+
+- Para que el notebook funcione correctamente, debes colocar tu archivo `kaggle.json` (con tus credenciales de la API de Kaggle) en el mismo directorio del notebook o configurar la variable de entorno `KAGGLE_CONFIG_DIR` apuntando a su ubicación.
+
+- El entrenamiento del modelo se realiza sobre imágenes, por lo que se **recomienda fuertemente el uso de una GPU** (tarjeta gráfica) para acelerar el proceso. Puedes usar entornos como Google Colab o una máquina local con CUDA habilitado.
 ---
 
 ## 📁 Estructura del Proyecto
@@ -34,4 +41,5 @@ Este proyecto permite descargar y analizar un dataset público relacionado con e
 ```
 git clone https://github.com/jesus24e/Data-Set-Zargazo.git Clasificador_zargazo
 ```
-- este comando creara una carpeta llamada **Clasificador_zargazo** con el archivo ipynb dentro, despues solo tiene que abrir ese proyecto en el entorno que prefierea (Google colaboratory o Visual Studio Code por ejemplo)
+- este comando creara una carpeta llamada **Clasificador_zargazo** con el archivo ipynb dentro, despues solo tiene que abrir ese proyecto en el entorno que prefierea (Google Colab o Visual Studio Code por ejemplo)
+
