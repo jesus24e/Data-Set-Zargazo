@@ -39,7 +39,7 @@ Este proyecto permite descargar y analizar un dataset público relacionado con e
 - abra la terminal en el escritorio o donde quiera que se descargue el proyecto y use el siguiente comando
 
 ```
-git clone https://github.com/jesus24e/Data-Set-Zargazo.git Clasificador_zargazo
+git clone https://github.com/jesus24e/MEIA2025_equipo_Sargaceros.git Clasificador_zargazo
 ```
 - este comando creara una carpeta llamada **Clasificador_zargazo** con el archivo ipynb dentro, despues solo tiene que abrir ese proyecto en el entorno que prefierea (Google Colab o Visual Studio Code por ejemplo)
 
